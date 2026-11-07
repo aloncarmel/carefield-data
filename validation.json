@@ -1,0 +1,275 @@
+{
+  "ok": true,
+  "generated_at": "2026-11-07T00:51:25.429Z",
+  "passed": 38,
+  "errors": 0,
+  "warnings": 0,
+  "checks": [
+    {
+      "group": "integrity",
+      "name": "unique facility ids",
+      "ok": true,
+      "severity": "error",
+      "detail": "0 duplicates"
+    },
+    {
+      "group": "integrity",
+      "name": "one facility per CCN",
+      "ok": true,
+      "severity": "error",
+      "detail": "0 duplicate CCNs"
+    },
+    {
+      "group": "integrity",
+      "name": "facility shards exist",
+      "ok": true,
+      "severity": "error",
+      "detail": "0 missing"
+    },
+    {
+      "group": "integrity",
+      "name": "operator links resolve",
+      "ok": true,
+      "severity": "error",
+      "detail": "0 broken"
+    },
+    {
+      "group": "integrity",
+      "name": "chain links resolve",
+      "ok": true,
+      "severity": "error",
+      "detail": "0 broken"
+    },
+    {
+      "group": "integrity",
+      "name": "ZIP links resolve",
+      "ok": true,
+      "severity": "error",
+      "detail": "0 broken"
+    },
+    {
+      "group": "integrity",
+      "name": "county links resolve",
+      "ok": true,
+      "severity": "error",
+      "detail": "0 broken"
+    },
+    {
+      "group": "integrity",
+      "name": "deficiency type links resolve",
+      "ok": true,
+      "severity": "error",
+      "detail": "0 broken"
+    },
+    {
+      "group": "universe",
+      "name": "CMS ratings only on CMS-certified facilities",
+      "ok": true,
+      "severity": "error",
+      "detail": "0 violations"
+    },
+    {
+      "group": "integrity",
+      "name": "owner links resolve",
+      "ok": true,
+      "severity": "error",
+      "detail": "0 broken"
+    },
+    {
+      "group": "counts",
+      "name": "occurrences = sum over deficiency types",
+      "ok": true,
+      "severity": "error",
+      "detail": "619069 vs 619069"
+    },
+    {
+      "group": "counts",
+      "name": "facility rows = manifest",
+      "ok": true,
+      "severity": "error",
+      "detail": "14686 vs 14686"
+    },
+    {
+      "group": "counts",
+      "name": "active facilities = CMS provider file rows",
+      "ok": true,
+      "severity": "error",
+      "detail": "14686 vs 14686"
+    },
+    {
+      "group": "counts",
+      "name": "occurrences = raw citation rows",
+      "ok": true,
+      "severity": "error",
+      "detail": "619069 vs 619069"
+    },
+    {
+      "group": "counts",
+      "name": "penalties = raw penalty rows",
+      "ok": true,
+      "severity": "error",
+      "detail": "15007 vs 15007"
+    },
+    {
+      "group": "taxonomy",
+      "name": "every deficiency type maps to a concept",
+      "ok": true,
+      "severity": "warning",
+      "detail": "0 unmapped"
+    },
+    {
+      "group": "geography",
+      "name": "facilities with a resolved county",
+      "ok": true,
+      "severity": "warning",
+      "detail": "0 unresolved"
+    },
+    {
+      "group": "geography",
+      "name": "facilities with coordinates",
+      "ok": true,
+      "severity": "warning",
+      "detail": "0 without coordinates"
+    },
+    {
+      "group": "freshness",
+      "name": "cms_provider_info harvested within 45 days",
+      "ok": true,
+      "severity": "warning",
+      "detail": "0 days ago (CMS release 2026-10-01)"
+    },
+    {
+      "group": "freshness",
+      "name": "cms_ownership harvested within 45 days",
+      "ok": true,
+      "severity": "warning",
+      "detail": "0 days ago (CMS release 2026-10-01)"
+    },
+    {
+      "group": "freshness",
+      "name": "cms_health_deficiencies harvested within 45 days",
+      "ok": true,
+      "severity": "warning",
+      "detail": "0 days ago (CMS release 2026-10-01)"
+    },
+    {
+      "group": "freshness",
+      "name": "cms_fire_safety_deficiencies harvested within 45 days",
+      "ok": true,
+      "severity": "warning",
+      "detail": "0 days ago (CMS release 2026-10-01)"
+    },
+    {
+      "group": "freshness",
+      "name": "cms_penalties harvested within 45 days",
+      "ok": true,
+      "severity": "warning",
+      "detail": "0 days ago (CMS release 2026-10-01)"
+    },
+    {
+      "group": "freshness",
+      "name": "cms_inspection_dates harvested within 45 days",
+      "ok": true,
+      "severity": "warning",
+      "detail": "0 days ago (CMS release 2026-10-01)"
+    },
+    {
+      "group": "freshness",
+      "name": "cms_citation_lookup harvested within 45 days",
+      "ok": true,
+      "severity": "warning",
+      "detail": "0 days ago (CMS release 2026-10-01)"
+    },
+    {
+      "group": "freshness",
+      "name": "cms_state_us_averages harvested within 45 days",
+      "ok": true,
+      "severity": "warning",
+      "detail": "0 days ago (CMS release 2026-10-01)"
+    },
+    {
+      "group": "freshness",
+      "name": "us_census_county_codes harvested within 400 days",
+      "ok": true,
+      "severity": "warning",
+      "detail": "0 days ago (CMS release ?)"
+    },
+    {
+      "group": "reference",
+      "name": "reference facility present",
+      "ok": true,
+      "severity": "error",
+      "detail": "cms-015009"
+    },
+    {
+      "group": "reference",
+      "name": "name",
+      "ok": true,
+      "severity": "error",
+      "detail": "BURNS NURSING HOME, INC."
+    },
+    {
+      "group": "reference",
+      "name": "CCN",
+      "ok": true,
+      "severity": "error",
+      "detail": "015009"
+    },
+    {
+      "group": "reference",
+      "name": "ZIP",
+      "ok": true,
+      "severity": "error",
+      "detail": "35653"
+    },
+    {
+      "group": "reference",
+      "name": "county FIPS",
+      "ok": true,
+      "severity": "error",
+      "detail": "01059"
+    },
+    {
+      "group": "reference",
+      "name": "state",
+      "ok": true,
+      "severity": "error",
+      "detail": "AL"
+    },
+    {
+      "group": "reference",
+      "name": "certified beds published",
+      "ok": true,
+      "severity": "error",
+      "detail": "57"
+    },
+    {
+      "group": "reference",
+      "name": "inspections linked",
+      "ok": true,
+      "severity": "error",
+      "detail": "6"
+    },
+    {
+      "group": "reference",
+      "name": "ownership linked",
+      "ok": true,
+      "severity": "error",
+      "detail": "7"
+    },
+    {
+      "group": "reference",
+      "name": "every finding resolves to a type",
+      "ok": true,
+      "severity": "error",
+      "detail": null
+    },
+    {
+      "group": "reference",
+      "name": "state page lists facility",
+      "ok": true,
+      "severity": "error",
+      "detail": null
+    }
+  ]
+}
