@@ -1,7 +1,7 @@
 {
   "ok": true,
-  "generated_at": "2026-11-07T09:31:43.916Z",
-  "passed": 38,
+  "generated_at": "2026-11-07T13:37:31.591Z",
+  "passed": 43,
   "errors": 0,
   "warnings": 0,
   "checks": [
@@ -14,7 +14,7 @@
     },
     {
       "group": "integrity",
-      "name": "one facility per CCN",
+      "name": "one CMS facility per CCN",
       "ok": true,
       "severity": "error",
       "detail": "0 duplicate CCNs"
@@ -69,6 +69,27 @@
       "detail": "0 violations"
     },
     {
+      "group": "state_layer",
+      "name": "CA: CMS homes linked to a state license",
+      "ok": true,
+      "severity": "warning",
+      "detail": "1152 of 1165"
+    },
+    {
+      "group": "state_layer",
+      "name": "CA: licensed-only homes carry no CMS ratings",
+      "ok": true,
+      "severity": "error",
+      "detail": null
+    },
+    {
+      "group": "state_layer",
+      "name": "CA: state enforcement actions linked",
+      "ok": true,
+      "severity": "warning",
+      "detail": "13303 actions"
+    },
+    {
       "group": "integrity",
       "name": "owner links resolve",
       "ok": true,
@@ -87,11 +108,11 @@
       "name": "facility rows = manifest",
       "ok": true,
       "severity": "error",
-      "detail": "14686 vs 14686"
+      "detail": "14724 vs 14724"
     },
     {
       "group": "counts",
-      "name": "active facilities = CMS provider file rows",
+      "name": "active CMS facilities = CMS provider file rows",
       "ok": true,
       "severity": "error",
       "detail": "14686 vs 14686"
@@ -136,63 +157,77 @@
       "name": "cms_provider_info harvested within 45 days",
       "ok": true,
       "severity": "warning",
-      "detail": "0 days ago (CMS release 2026-10-01)"
+      "detail": "1 days ago (CMS release 2026-10-01)"
     },
     {
       "group": "freshness",
       "name": "cms_ownership harvested within 45 days",
       "ok": true,
       "severity": "warning",
-      "detail": "0 days ago (CMS release 2026-10-01)"
+      "detail": "1 days ago (CMS release 2026-10-01)"
     },
     {
       "group": "freshness",
       "name": "cms_health_deficiencies harvested within 45 days",
       "ok": true,
       "severity": "warning",
-      "detail": "0 days ago (CMS release 2026-10-01)"
+      "detail": "1 days ago (CMS release 2026-10-01)"
     },
     {
       "group": "freshness",
       "name": "cms_fire_safety_deficiencies harvested within 45 days",
       "ok": true,
       "severity": "warning",
-      "detail": "0 days ago (CMS release 2026-10-01)"
+      "detail": "1 days ago (CMS release 2026-10-01)"
     },
     {
       "group": "freshness",
       "name": "cms_penalties harvested within 45 days",
       "ok": true,
       "severity": "warning",
-      "detail": "0 days ago (CMS release 2026-10-01)"
+      "detail": "1 days ago (CMS release 2026-10-01)"
     },
     {
       "group": "freshness",
       "name": "cms_inspection_dates harvested within 45 days",
       "ok": true,
       "severity": "warning",
-      "detail": "0 days ago (CMS release 2026-10-01)"
+      "detail": "1 days ago (CMS release 2026-10-01)"
     },
     {
       "group": "freshness",
       "name": "cms_citation_lookup harvested within 45 days",
       "ok": true,
       "severity": "warning",
-      "detail": "0 days ago (CMS release 2026-10-01)"
+      "detail": "1 days ago (CMS release 2026-10-01)"
     },
     {
       "group": "freshness",
       "name": "cms_state_us_averages harvested within 45 days",
       "ok": true,
       "severity": "warning",
-      "detail": "0 days ago (CMS release 2026-10-01)"
+      "detail": "1 days ago (CMS release 2026-10-01)"
     },
     {
       "group": "freshness",
       "name": "us_census_county_codes harvested within 400 days",
       "ok": true,
       "severity": "warning",
-      "detail": "0 days ago (CMS release ?)"
+      "detail": "1 days ago (CMS release ?)"
+    },
+    {
+      "group": "freshness",
+      "name": "ca_cdph_facility_listing harvested within 45 days",
+      "ok": true,
+      "severity": "warning",
+      "detail": "0 days ago (CMS release 2026-10-16)"
+    },
+    {
+      "group": "freshness",
+      "name": "ca_cdph_enforcement_actions harvested within 400 days",
+      "ok": true,
+      "severity": "warning",
+      "detail": "0 days ago (CMS release 2024-08-27)"
     },
     {
       "group": "reference",
