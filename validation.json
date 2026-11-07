@@ -1,7 +1,7 @@
 {
   "ok": true,
-  "generated_at": "2026-11-07T13:37:31.591Z",
-  "passed": 43,
+  "generated_at": "2026-11-07T15:24:38.057Z",
+  "passed": 101,
   "errors": 0,
   "warnings": 0,
   "checks": [
@@ -90,6 +90,286 @@
       "detail": "13303 actions"
     },
     {
+      "group": "state_layer",
+      "name": "CT: CMS homes linked to a state license",
+      "ok": true,
+      "severity": "warning",
+      "detail": "185 of 191"
+    },
+    {
+      "group": "state_layer",
+      "name": "CT: licensed-only homes carry no CMS ratings",
+      "ok": true,
+      "severity": "error",
+      "detail": null
+    },
+    {
+      "group": "state_layer",
+      "name": "KY: CMS homes linked to a state license",
+      "ok": true,
+      "severity": "warning",
+      "detail": "259 of 266"
+    },
+    {
+      "group": "state_layer",
+      "name": "KY: licensed-only homes carry no CMS ratings",
+      "ok": true,
+      "severity": "error",
+      "detail": null
+    },
+    {
+      "group": "state_layer",
+      "name": "MD: CMS homes linked to a state license",
+      "ok": true,
+      "severity": "warning",
+      "detail": "202 of 221"
+    },
+    {
+      "group": "state_layer",
+      "name": "MD: licensed-only homes carry no CMS ratings",
+      "ok": true,
+      "severity": "error",
+      "detail": null
+    },
+    {
+      "group": "state_layer",
+      "name": "MO: CMS homes linked to a state license",
+      "ok": true,
+      "severity": "warning",
+      "detail": "479 of 486"
+    },
+    {
+      "group": "state_layer",
+      "name": "MO: licensed-only homes carry no CMS ratings",
+      "ok": true,
+      "severity": "error",
+      "detail": null
+    },
+    {
+      "group": "state_layer",
+      "name": "NY: CMS homes linked to a state license",
+      "ok": true,
+      "severity": "warning",
+      "detail": "580 of 592"
+    },
+    {
+      "group": "state_layer",
+      "name": "NY: licensed-only homes carry no CMS ratings",
+      "ok": true,
+      "severity": "error",
+      "detail": null
+    },
+    {
+      "group": "state_layer",
+      "name": "PA: CMS homes linked to a state license",
+      "ok": true,
+      "severity": "warning",
+      "detail": "626 of 656"
+    },
+    {
+      "group": "state_layer",
+      "name": "PA: licensed-only homes carry no CMS ratings",
+      "ok": true,
+      "severity": "error",
+      "detail": null
+    },
+    {
+      "group": "state_layer",
+      "name": "UT: CMS homes linked to a state license",
+      "ok": true,
+      "severity": "warning",
+      "detail": "97 of 97"
+    },
+    {
+      "group": "state_layer",
+      "name": "UT: licensed-only homes carry no CMS ratings",
+      "ok": true,
+      "severity": "error",
+      "detail": null
+    },
+    {
+      "group": "state_layer",
+      "name": "WY: CMS homes linked to a state license",
+      "ok": true,
+      "severity": "warning",
+      "detail": "36 of 36"
+    },
+    {
+      "group": "state_layer",
+      "name": "WY: licensed-only homes carry no CMS ratings",
+      "ok": true,
+      "severity": "error",
+      "detail": null
+    },
+    {
+      "group": "residential",
+      "name": "residential care rows carry no CMS ratings, CCN-based inspections or citations",
+      "ok": true,
+      "severity": "error",
+      "detail": "13596 rows"
+    },
+    {
+      "group": "residential",
+      "name": "residential care excluded from CMS facility counts",
+      "ok": true,
+      "severity": "error",
+      "detail": null
+    },
+    {
+      "group": "residential",
+      "name": "CA: residential roster produced facilities",
+      "ok": true,
+      "severity": "error",
+      "detail": "7943 facilities"
+    },
+    {
+      "group": "residential",
+      "name": "CA: residential facilities resolved to a county",
+      "ok": true,
+      "severity": "warning",
+      "detail": "0 unresolved"
+    },
+    {
+      "group": "residential",
+      "name": "CT: residential roster produced facilities",
+      "ok": true,
+      "severity": "error",
+      "detail": "124 facilities"
+    },
+    {
+      "group": "residential",
+      "name": "CT: residential facilities resolved to a county",
+      "ok": true,
+      "severity": "warning",
+      "detail": "1 unresolved"
+    },
+    {
+      "group": "residential",
+      "name": "KY: residential roster produced facilities",
+      "ok": true,
+      "severity": "error",
+      "detail": "231 facilities"
+    },
+    {
+      "group": "residential",
+      "name": "KY: residential facilities resolved to a county",
+      "ok": true,
+      "severity": "warning",
+      "detail": "0 unresolved"
+    },
+    {
+      "group": "residential",
+      "name": "MD: residential roster produced facilities",
+      "ok": true,
+      "severity": "error",
+      "detail": "1512 facilities"
+    },
+    {
+      "group": "residential",
+      "name": "MD: residential facilities resolved to a county",
+      "ok": true,
+      "severity": "warning",
+      "detail": "0 unresolved"
+    },
+    {
+      "group": "residential",
+      "name": "MI: residential roster produced facilities",
+      "ok": true,
+      "severity": "error",
+      "detail": "351 facilities"
+    },
+    {
+      "group": "residential",
+      "name": "MI: residential facilities resolved to a county",
+      "ok": true,
+      "severity": "warning",
+      "detail": "0 unresolved"
+    },
+    {
+      "group": "residential",
+      "name": "MO: residential roster produced facilities",
+      "ok": true,
+      "severity": "error",
+      "detail": "584 facilities"
+    },
+    {
+      "group": "residential",
+      "name": "MO: residential facilities resolved to a county",
+      "ok": true,
+      "severity": "warning",
+      "detail": "4 unresolved"
+    },
+    {
+      "group": "residential",
+      "name": "NC: residential roster produced facilities",
+      "ok": true,
+      "severity": "error",
+      "detail": "1086 facilities"
+    },
+    {
+      "group": "residential",
+      "name": "NC: residential facilities resolved to a county",
+      "ok": true,
+      "severity": "warning",
+      "detail": "0 unresolved"
+    },
+    {
+      "group": "residential",
+      "name": "NY: residential roster produced facilities",
+      "ok": true,
+      "severity": "error",
+      "detail": "517 facilities"
+    },
+    {
+      "group": "residential",
+      "name": "NY: residential facilities resolved to a county",
+      "ok": true,
+      "severity": "warning",
+      "detail": "0 unresolved"
+    },
+    {
+      "group": "residential",
+      "name": "PA: residential roster produced facilities",
+      "ok": true,
+      "severity": "error",
+      "detail": "990 facilities"
+    },
+    {
+      "group": "residential",
+      "name": "PA: residential facilities resolved to a county",
+      "ok": true,
+      "severity": "warning",
+      "detail": "0 unresolved"
+    },
+    {
+      "group": "residential",
+      "name": "UT: residential roster produced facilities",
+      "ok": true,
+      "severity": "error",
+      "detail": "224 facilities"
+    },
+    {
+      "group": "residential",
+      "name": "UT: residential facilities resolved to a county",
+      "ok": true,
+      "severity": "warning",
+      "detail": "0 unresolved"
+    },
+    {
+      "group": "residential",
+      "name": "WY: residential roster produced facilities",
+      "ok": true,
+      "severity": "error",
+      "detail": "34 facilities"
+    },
+    {
+      "group": "residential",
+      "name": "WY: residential facilities resolved to a county",
+      "ok": true,
+      "severity": "warning",
+      "detail": "0 unresolved"
+    },
+    {
       "group": "integrity",
       "name": "owner links resolve",
       "ok": true,
@@ -108,7 +388,7 @@
       "name": "facility rows = manifest",
       "ok": true,
       "severity": "error",
-      "detail": "14724 vs 14724"
+      "detail": "28448 vs 28448"
     },
     {
       "group": "counts",
@@ -143,14 +423,14 @@
       "name": "facilities with a resolved county",
       "ok": true,
       "severity": "warning",
-      "detail": "0 unresolved"
+      "detail": "5 unresolved"
     },
     {
       "group": "geography",
-      "name": "facilities with coordinates",
+      "name": "nursing homes with coordinates",
       "ok": true,
       "severity": "warning",
-      "detail": "0 without coordinates"
+      "detail": "52 without coordinates (residential rosters often publish no coordinates: 10299 rows overall)"
     },
     {
       "group": "freshness",
@@ -228,6 +508,132 @@
       "ok": true,
       "severity": "warning",
       "detail": "0 days ago (CMS release 2024-08-27)"
+    },
+    {
+      "group": "freshness",
+      "name": "ca_cdss_rcfe harvested within 45 days",
+      "ok": true,
+      "severity": "warning",
+      "detail": "0 days ago (CMS release 2026-09-30)"
+    },
+    {
+      "group": "freshness",
+      "name": "ct_dph_nursing_facility_registry harvested within 400 days",
+      "ok": true,
+      "severity": "warning",
+      "detail": "0 days ago (CMS release 2026-04-30)"
+    },
+    {
+      "group": "freshness",
+      "name": "ct_dph_assisted_living_agencies harvested within 45 days",
+      "ok": true,
+      "severity": "warning",
+      "detail": "0 days ago (CMS release 2026-11-07)"
+    },
+    {
+      "group": "freshness",
+      "name": "ky_oig_long_term_care harvested within 45 days",
+      "ok": true,
+      "severity": "warning",
+      "detail": "0 days ago (CMS release 2026-10-30)"
+    },
+    {
+      "group": "freshness",
+      "name": "ky_oig_personal_care_homes harvested within 45 days",
+      "ok": true,
+      "severity": "warning",
+      "detail": "0 days ago (CMS release 2026-10-30)"
+    },
+    {
+      "group": "freshness",
+      "name": "ky_chfs_assisted_living harvested within 45 days",
+      "ok": true,
+      "severity": "warning",
+      "detail": "0 days ago (CMS release 2026-10-30)"
+    },
+    {
+      "group": "freshness",
+      "name": "md_ohcq_long_term_care harvested within 45 days",
+      "ok": true,
+      "severity": "warning",
+      "detail": "0 days ago (CMS release 2025-07-22)"
+    },
+    {
+      "group": "freshness",
+      "name": "md_ohcq_assisted_living harvested within 45 days",
+      "ok": true,
+      "severity": "warning",
+      "detail": "0 days ago (CMS release 2025-07-22)"
+    },
+    {
+      "group": "freshness",
+      "name": "mi_lara_homes_for_aged harvested within 3 days",
+      "ok": true,
+      "severity": "warning",
+      "detail": "0 days ago (CMS release 2026-11-07)"
+    },
+    {
+      "group": "freshness",
+      "name": "mo_dhss_ltc_directory harvested within 45 days",
+      "ok": true,
+      "severity": "warning",
+      "detail": "0 days ago (CMS release 2026-11-04)"
+    },
+    {
+      "group": "freshness",
+      "name": "nc_dhsr_adult_care_homes harvested within 45 days",
+      "ok": true,
+      "severity": "warning",
+      "detail": "0 days ago (CMS release 2026-10-28)"
+    },
+    {
+      "group": "freshness",
+      "name": "nc_dhsr_family_care_homes harvested within 45 days",
+      "ok": true,
+      "severity": "warning",
+      "detail": "0 days ago (CMS release 2026-10-28)"
+    },
+    {
+      "group": "freshness",
+      "name": "ny_doh_health_facilities harvested within 45 days",
+      "ok": true,
+      "severity": "warning",
+      "detail": "0 days ago (CMS release 2026-10-23)"
+    },
+    {
+      "group": "freshness",
+      "name": "ny_doh_facility_beds harvested within 45 days",
+      "ok": true,
+      "severity": "warning",
+      "detail": "0 days ago (CMS release 2026-11-01)"
+    },
+    {
+      "group": "freshness",
+      "name": "pa_doh_nursing_homes harvested within 45 days",
+      "ok": true,
+      "severity": "warning",
+      "detail": "0 days ago (CMS release 2026-09-17)"
+    },
+    {
+      "group": "freshness",
+      "name": "pa_dhs_personal_care_homes harvested within 45 days",
+      "ok": true,
+      "severity": "warning",
+      "detail": "0 days ago (CMS release 2026-11-01)"
+    },
+    {
+      "group": "freshness",
+      "name": "ut_dlbc_licensed_facilities harvested within 45 days",
+      "ok": true,
+      "severity": "warning",
+      "detail": "0 days ago (CMS release 2026-03-07)"
+    },
+    {
+      "group": "freshness",
+      "name": "wy_hls_facility_directory harvested within 120 days",
+      "ok": true,
+      "severity": "warning",
+      "detail": "0 days ago (CMS release 2026-11-02)"
     },
     {
       "group": "reference",
